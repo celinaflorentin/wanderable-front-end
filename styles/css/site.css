@@ -1,0 +1,78 @@
+body {
+	background-color: #fbf2f5;
+}
+.img-responsive {
+	width: 100%;
+}
+.hero-img {
+	max-width: 100%;
+}
+.content {
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+}
+.content .welcome {
+	padding: 30px 0;
+	border: 6px solid #0072bb;
+	margin-top: 60px;
+}
+.content .blurb span {
+	text-transform: uppercase;
+	display: block;
+	margin-top: 60px;
+	font-weight: bold;
+}
+.content .blurb p {
+	margin-top: 15px;
+	text-align: left;
+}
+.registry-header {
+	text-align: center;
+	margin: 50px 0 25px 0;
+}
+.product {
+	margin-bottom: 30px;
+	display: inline-block;
+	vertical-align: top;
+}
+.product .details {
+	padding: 2px 20px;
+	background-color: #ffffff;
+	border-bottom: 6px solid #0072bb;
+}
+.product .details .product-title {
+	text-align: center;
+	color: #0272bc;
+}
+.product .details .product-info {
+	text-align: center;
+	border-top: 1px solid black;
+	padding: 15px 0;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.product .details .product-info span {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.product .details .product-description {
+	border-top: 1px solid black;
+	padding-top: 20px;
+}
+.product .details button {
+	border-radius: 0;
+	background-color: #dca7b7;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px 0;
+	width: 175px;
+	color: #ffffff;
+	margin: 20px 0;
+}
+.product .details button:hover {
+	background-color: #cf889d;
+}
+.img-toggle:hover, .product-title:hover {
+	cursor: pointer;
+}
